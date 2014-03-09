@@ -1,4 +1,4 @@
-html, body {
+/*html, body {
   margin:0;
   height: 100%;
   background-color: #F5F5F5;
@@ -146,7 +146,7 @@ div .navbar {
 
 /*
 Home Content 
-================================= */
+================================= *
 
 .fourColumn {
     overflow: auto;
@@ -207,7 +207,7 @@ Home Content
 }
 /*
 Footer
-================================= */
+================================= *
 
 
 #footer {
@@ -217,4 +217,4 @@ Footer
   bottom: 0px;
   background-color: #000;
 
-} 
+} */
