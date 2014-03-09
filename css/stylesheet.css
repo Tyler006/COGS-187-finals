@@ -1,0 +1,223 @@
+html, body {
+  margin:0;
+  height: 100%;
+  background-color: #F5F5F5;
+}
+
+.container {
+  width: 1200px;
+  position: relative;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+}
+.glyphicon-search {
+    margin-left: -4px;
+}
+/* 
+2. Navigation 
+================================= */
+.navbar{
+    background: #003366;
+    /*padding: 10px;*/
+  height: 350px;
+  border: none;
+}
+
+.navbar img{
+  height: 350px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Drop down menu for navigation bar*/
+
+#dropDownMenu {
+  margin: 0;
+  padding: 0;
+  height: 1em;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  z-index: 30;
+}
+
+#dropDownMenu li {
+  list-style: none;
+  float: left;
+}
+
+#dropDownMenu li a:hover{
+    background-color: #0027Af;
+}
+
+#dropDownMenu li ul li{
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    border-bottom:  1px solid black;
+}
+
+#dropDownMenu li ul li:hover{
+    background:#B00000;
+}
+
+#dropDownMenu li a {
+  display: block;
+  padding: 3px 8px;
+  color: #fff;
+  text-decoration: none;
+        }
+
+#dropDownMenu li ul {
+  display: none; 
+  width: 15em; 
+  background-color: #0027Af;
+        }
+	
+#dropDownMenu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+        }
+#dropDownMenu li:hover li {
+	float: none;
+        }
+#dropDownMenu li:hover li a {
+	background-color: #0027Af;
+	border-bottom: 1px solid #fff;
+	color: #000;
+        }
+#dropDownMenu li li a:hover {
+	background-color: #0027Af;
+        }
+#dropDownMenu > li:hover a {
+  background-color: #0027Af;
+}
+
+.top-nav {
+  text-transform: uppercase;
+  font-size: 11px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+
+#main-nav ul {
+  list-style-type: none;
+  margin-top: -35px;
+  margin-left: 20px;
+  margin-right: 100px;
+  padding:0;
+  float: right;
+  color: #fff;
+}
+
+#main-nav ul li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-control {
+	border-radius: 0;
+	height: 30px;
+    display:inline-block;
+}
+
+.navbar-form .btn {
+  height: 30px;
+  width: 30px;
+}
+div .navbar {
+  background-image: url(/img/HomepageMainImage.jpg);
+  height: 300px;
+  }
+
+/*
+Home Content 
+================================= */
+
+.fourColumn {
+    overflow: auto;
+    padding: 10px;
+}
+.fourColumn h4{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.fourColumn h5
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+}
+.fourColumn p{
+    color: black;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+.fourColumn img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.fourColumn a{
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.fourColumn a:hover{
+    color: #FFB124;
+    text-decoration: none;
+}
+
+.Column {
+    margin-left: 5px;
+    float: left;
+    background-repeat: no-repeat;
+    width: 23%;
+    
+}
+/*
+Footer
+================================= */
+
+
+#footer {
+  height: 50px;
+  clear:both;
+  left:0px;
+  bottom: 0px;
+  background-color: #000;
+
+} 
